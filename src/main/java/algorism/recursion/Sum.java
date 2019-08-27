@@ -3,7 +3,8 @@ package algorism.recursion;
 public class Sum {
     
     public static void main(String[] args) {
-        System.out.println("1+...+n = " + sumIter(100));
+        int n = 100;
+        System.out.println("1+...+" + n + " = " + sumIter(100));
     }
     // f(n)=f(n-1)+n
     // f(1)=1 递归
