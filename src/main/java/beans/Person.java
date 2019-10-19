@@ -5,6 +5,11 @@ public class Person {
     private String sex;
     private Integer age;
 
+    public Person(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+    
     public Person(String name, String sex, Integer age) {
         this.name = name;
         this.sex = sex;

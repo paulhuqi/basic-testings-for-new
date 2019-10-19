@@ -1,8 +1,11 @@
 package others;
 
+import java.util.HashMap;
+
 public class Strings {
     public static void main(String[] args) {
         stringPlusCompareStrArr();
+        new HashMap<>();
     }
     
     private static void stringPlusCompareStrArr() {
