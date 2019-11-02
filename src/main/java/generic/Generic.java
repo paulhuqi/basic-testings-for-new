@@ -23,7 +23,7 @@ public class Generic {
             System.out.println("input is not the right type.");
             return null;
         }
-        List<Integer> list = (List<Integer>) in;
+        List<Object> list = (List<Object>) in;
         System.out.println("input=" + in);
         return null;
     }
