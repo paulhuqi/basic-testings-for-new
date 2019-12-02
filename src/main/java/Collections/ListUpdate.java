@@ -10,6 +10,22 @@ import java.util.Map;
 public class ListUpdate {
     
     public static void main(String[] args) {
+        listUpdate();
+    }
+    
+    private static void listUpdate() {
+        List<Person> list = new ArrayList<>();
+        Person hqb = new Person("hqb", 1);
+        list.add(hqb);
+        System.out.println(list.get(0));
+        hqb.setAge(121);
+        System.out.println(list.get(0));
+        list.get(0).setAge(232);
+        System.out.println(list.get(0));
+        
+    }
+    
+    private static void listMapUpdate() {
         Map<String, List<Person>> pMap = new HashMap<>();
         List<Person> list = new ArrayList<>();
         list.add(new Person("hqb", 1));

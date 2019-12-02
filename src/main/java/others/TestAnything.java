@@ -1,12 +1,12 @@
 package others;
 
+import java.util.Arrays;
+
 public class TestAnything {
     public static void main(String[] args) {
-//        () -> InterfaceFunction::print;
-        String s = "ab:cd";
-//        s = s.replace(":", "-").toUpperCase();
-        System.out.println(s = s.replace(":", "-").toUpperCase());
-        System.out.println(s);
+        String[] counts = {"0", "1"};
+        counts[counts.length - 1] = Integer.valueOf(counts[counts.length - 1]) + 1 + "";
+        System.out.println(String.join(",", counts));
     }
     
     private static void debugOnCondition() {
